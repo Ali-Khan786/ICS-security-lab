@@ -55,8 +55,8 @@ Initial deployments of the NIDS failed to capture the attack traffic. Troublesho
 **The Fix:**
 The `scapy` sniffing parameters were reconfigured to explicitly tap into the Podman virtual interfaces.
 
-<img width="1920" height="1080" alt="detectionscreen" src="https://github.com/user-attachments/assets/b1400898-0fec-48a9-ac28-54c59128f448" />
 
 ```python
 # Final Sniffing Configuration
 sniff(iface=["podman0", "veth0"], filter="tcp port 502", prn=detect_modbus_attack, store=0)
+<img width="1920" height="1080" alt="detectionscreen" src="https://github.com/user-attachments/assets/b1400898-0fec-48a9-ac28-54c59128f448" />
