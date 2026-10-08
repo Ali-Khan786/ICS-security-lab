@@ -34,7 +34,7 @@ A malicious Python script (`attack.py`) was developed to inject unauthorized Mod
 
 Because Modbus inherently trusts all traffic on the network, the PLC blindly accepted and executed the injected payload.
 
-*(Insert your Attack Execution and altered HMI logs screenshot here)*
+
 
 ## Phase 3: Developing the NIDS Defense Mechanism
 **Objective:** Engineer a passive network defense tool to detect unauthenticated write commands targeted at the PLC.
