@@ -1,5 +1,7 @@
 # ICS/OT Cybersecurity Lab: Modbus TCP Exploitation and Network Defense
 
+> **⚠️ DISCLAIMER:** *This repository and its contents are for educational and professional portfolio purposes only. The Modbus exploitation scripts and techniques demonstrated here are intended strictly for use in isolated, authorized lab environments. Do not execute these tools against production Industrial Control Systems (ICS), Operational Technology (OT) networks, or any hardware/networks you do not own or have explicit authorization to test.*
+
 **Author:** Ali Ahmed Khan  
 **Environment:** Parrot OS, Podman/Docker, Python 3  
 **Target:** OpenPLC Virtual Runtime (Modbus TCP port 502)  
